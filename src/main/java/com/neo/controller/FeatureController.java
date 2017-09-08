@@ -11,7 +11,7 @@ public class FeatureController {
 	private final Logger logger = LoggerFactory.getLogger(this.getClass());
 	
     @RequestMapping("/getFeatureTree")
-    public String getFeatureTree() {
+    public void getFeatureTree() {
     	
     }
 }
